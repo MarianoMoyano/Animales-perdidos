@@ -1,0 +1,66 @@
+.title{
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+  
+.down{
+  justify-content: center;
+}
+
+.body{
+  background-color:#FFFFFF
+}
+
+.encabezado{
+  align-items: center;
+  display:flex;
+  justify-content: space-between;
+}
+
+.mascotas {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px ;
+  grid-template-rows: 100px 100px 100px ;
+  justify-content: center
+}
+  
+.logo {
+width:"500";
+height:"600";
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.animal-encontrado {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.animal-perdido {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media screen and ( max-width: 720px) { 
+  body { 
+    background-color:#808080
+  }
+}
+
+@media screen and ( max-width: 768px) { 
+  body { 
+    background-color:#FFFFFF
+  }
+}
+
