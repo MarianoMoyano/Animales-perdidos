@@ -1,0 +1,25 @@
+{
+  "name": "vs",
+  "version": "1.0.0",
+  "description": "javascript",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss sass/main.scss estilos/compilado.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gordamimi/VS.git"
+  },
+  "author": "Mariano Moyano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gordamimi/VS/issues"
+  },
+  "homepage": "https://github.com/Gordamimi/VS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

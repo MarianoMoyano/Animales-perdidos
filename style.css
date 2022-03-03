@@ -72,6 +72,9 @@
 
 
 @media screen and ( max-width: 1400px) { 
+  .encabezado{
+    flex-wrap: wrap;
+  }
   .mascotas {
     display: grid;
     grid-gap: 1rem;
@@ -84,6 +87,13 @@
 }
 
 @media screen and ( max-width: 992px) { 
+  .logo {
+    width:200px;
+    height:150px;
+  }
+  .encabezado{
+    flex-wrap: wrap;
+  }
   .mascotas {
     display: grid;
     grid-gap: 1rem;
@@ -108,6 +118,13 @@
 }
 
 @media screen and ( max-width: 576px) { 
+  .logo {
+    width:180px;
+    height:140px;
+  }
+  .encabezado{
+    flex-wrap: wrap;
+  }
   .mascotas {
     display: grid;
     grid-gap: 1rem;
@@ -120,6 +137,13 @@
 }
 
 @media screen and ( max-width: 320px) {
+  .logo {
+    width:130px;
+    height:100px;
+  }
+  .encabezado{
+    flex-wrap: wrap;
+  }
   .mascotas {
     display: grid;
     grid-gap: 1rem;
@@ -127,6 +151,5 @@
     grid-template-rows: repeat(12,1fr)  ;
     justify-content: center;
     width: 100vw;
-  
   }
 }
