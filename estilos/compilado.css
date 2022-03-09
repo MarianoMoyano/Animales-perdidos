@@ -3,15 +3,18 @@
   font-family: 'Fredoka', sans-serif; }
 
 .texto-blanco {
-  font-size: 33px; }
+  font-size: 33px;
+  color: white;
+  font-weight: bold; }
 
 body {
   background-image: linear-gradient(#10022f, whitesmoke);
   min-height: 100vh; }
 
 nav, .page-link {
-  background-color: #4c2882;
-  color: #FFFFFF; }
+  background-color: #4c2882; }
+  nav *, .page-link * {
+    color: #FFFFFF !important; }
 
 .title {
   display: inline;

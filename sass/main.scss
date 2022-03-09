@@ -7,6 +7,8 @@ $color-primario: #4c2882;
 
 .texto-blanco { 
   font-size: 33px;
+  color: white;
+  font-weight: bold;
 }
 
 body {
@@ -16,7 +18,9 @@ body {
 
 nav, .page-link {
   background-color: $color-primario;
-  color: #FFFFFF; 
+  * {
+    color: #FFFFFF !important; 
+  }
 }
   
 .title {
