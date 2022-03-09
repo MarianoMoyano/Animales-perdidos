@@ -1,44 +1,70 @@
 <html lang="es">
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Animales perdidos</title>
-  
-  </head>
+    <meta name="animales perdidos" content="Perdi mi animal animales perdidos">
+    <meta name="" content="HTML, ASP, JS, META, animales perdidos">
+    <link rel="stylesheet" href="estilos/compilado.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><B><FONT COLOR="white">Animales perdidos</FONT></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Animal perdido.html"><B><FONT COLOR="white">¿Perdiste tu mascota?</FONT></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Sobre nosotros.html"><B><FONT COLOR="white">Sobre nosotros</FONT></a>
+            </li>
+          </ul>
+           <form class="d-flex">
+            <input class="form-control me-2" type="search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+           </form>
+        </div>
+      </div>
+    </nav>
+   </head>
   <body>
     <div class="encabezado">
-      <div class="title">animal: Gato 7</div>
       <img class="logo" 
-          src="animales perdidos logo.jpeg"
+          src="fotos/logolostpets.PNG"
           width="400"
           height="200"
       />
-      <input type="search" name="" id="" placeholder="Buscar">
+
     </div>
-     <P>Muchas gracias por encontrar este animal, confirma si es este y ubica donde lo encontraste y si lo tienes tu o no.</P>
+     <P><B><FONT COLOR="white">Indique como se llama la mascota perdida y una foto con una breve descripción.</FONT></P>
     <section class="animal-encontrado">
       <div>
-        <p><input type="checkbox" name="" id=""> Es este el animal encontrado?</p>
-        <img src="./fotos/images4.jfif" alt="luna" width="400" height="400">
+        <p><input type="checkbox" name="" id=""> ¿Es este la mascota encontrada?</p>
+        <img src="./fotos/Gato moño.jpeg" alt="luna" width="400" height="400">
       </div>
       <div>
         <p> Fecha:<input type="date" name="" id="">
-        <input type="checkbox" name="" id=""> Lo tiene usted?</p>
-        <p>Donde lo vio?</p>
-        <img src="maps.png" alt="luna" width="300" height="300">
-        <p>fue encontrado entre las calles<input type="" name="" id=""></p>
+        <input type="checkbox" name="" id=""> ¿Lo tiene usted?</p>
+        <p>¿Donde lo vio?</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.09945338891!2d-58.45813468463305!3d-34.601646564895844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x513dac7106531a27!2zMzTCsDM2JzA1LjkiUyA1OMKwMjcnMjEuNCJX!5e0!3m2!1ses-419!2sar!4v1646263722966!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <p>Fue encontrado entre las calles<input type="" name="" id=""></p>
       </div>
     </section>
     <div class="down">
      <aling center>
-        <a href="Animal perdido.html">Perdiste tu animal?</a>
+        <a href="Animal perdido.html">¿Perdiste tu mascota?</a>
      </aling center>
     </div>
     <section class="footer2">
       <a href="index.html">Cancelar
       </a>
-      <a href="index.html">Listo!
+      <a href="index.html">¡Listo!
       </a>
     </section>
   </body>
